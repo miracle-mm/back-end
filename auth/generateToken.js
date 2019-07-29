@@ -1,13 +1,13 @@
 const jwt = require('jsonwebtoken');
 const secret = require('../config/secrets.js');
 
-module.export = function(user) {
+module.exports = function(user) {
   const jwtPayload = {
     subject: user.id,
-    username: user.username
+    username: user.email
   };
   const jwtOptions = {
-    expiresIn: '3d'
+    expiresIn: '3h'
   };
-  return jwt.sign(jwtPayload.secret.jwtSecret, jwtOptions);
+  return jwt.sign(jwtPayload, secret.jwtSecret, jwtOptions);
 };

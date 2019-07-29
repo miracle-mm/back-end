@@ -67,8 +67,8 @@ exports.up = function(knex) {
     })
     .createTable('PartnerContacts', tbl => {
       tbl.increments();
-      tbl.string('FirstName', 32);
-      tbl.string('LastName', 32);
+      tbl.string('FirstName', 32).notNullable();
+      tbl.string('LastName', 32).notNullable();
       tbl.string('email').notNullable();
       tbl.string('password').notNullable();
       tbl

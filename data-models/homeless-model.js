@@ -14,7 +14,7 @@ function find() {
 }
 
 async function add(homelessPerson) {
-  const [id] = await db('homeless').insert(homelessPerson);
+  const [id] = await db('homeless').insert(homelessPerson, 'id');
 
   return findById(id);
 }

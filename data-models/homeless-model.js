@@ -10,7 +10,7 @@ module.exports = {
 };
 
 function find() {
-  return db('homeless').select('id', 'firstname', 'lastname', 'longitude', 'lattitude');
+  return db('homeless').select('id', 'firstname', 'lastname', 'longitude', 'latitude');
 }
 
 async function add(homelessPerson) {

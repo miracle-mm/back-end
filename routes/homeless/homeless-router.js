@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     const homeless = req.body
-    homeless.created = Date.now()
+    // homeless.created = Date.now()
     Homeless.add(homeless)
         .then(createdHomeless => {
             res.status(200).json(createdHomeless)

@@ -1,10 +1,10 @@
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex('Partners').truncate()
+  return knex('partners').del()
     .then(function () {
       // Inserts seed entries
-      return knex('Partners').insert([
+      return knex('partners').insert([
 // 20190730084343
 // https://files.slack.com/files-pri/T4JUEB3ME-FLV84GAJG/seed_data.json
 

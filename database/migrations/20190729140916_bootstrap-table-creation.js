@@ -24,6 +24,7 @@ exports.up = function(knex) {
       tbl.string('city');
       tbl.string('state');
       tbl.integer('zip');
+      tbl.string('country', 64)
       tbl.datetime('created');
       tbl.float('longitude');
       tbl.float('lattitude');

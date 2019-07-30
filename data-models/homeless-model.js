@@ -13,8 +13,10 @@ function find() {
   return db('homeless').select('id', 'firstname', 'lastname', 'longitude', 'lattitude');
 }
 
-async function add(user) {
-  const [id] = await db('homeless').insert(user);
+async function add(homelessPerson) {
+  console.log('homeless person', homelessPerson)
+  const [id] = await db('homeless').insert(homelessPerson);
+  console.log(id)
 
   return findById(id);
 }

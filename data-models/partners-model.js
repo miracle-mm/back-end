@@ -10,7 +10,7 @@ module.exports = {
 };
 
 function find() {
-  return db('Partners').select('id', 'name', 'longitude', 'lattitude');
+  return db('Partners').select('id', 'name', 'email', 'longitude', 'lattitude');
 }
 
 async function add(user) {

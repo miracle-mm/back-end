@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const bcrypt = require('bcryptjs');
 
-const Users = require('./users-model.js');
+const Partners = require('../../data-models/partners-model.js');
 const generateToken = require('../../auth/generateToken.js');
 
 router.post('/register', (req, res) => {
@@ -10,7 +10,7 @@ router.post('/register', (req, res) => {
   const hashPW = bcrypt.hashSync(user.password, 10);
   user.password = hashPW;
 
-  Users.add(user)
+  Partners.add(user)
     .then(createdUser => {
       res.status(200).json(createdUser);
     })
@@ -21,7 +21,7 @@ router.post('/register', (req, res) => {
 
 router.post('/login', (req, res) => {
   const { email, password } = req.body;
-  Users.findBy({ email })
+  Partners.findBy({ email })
     .first()
     .then(user => {
       if (user && bcrypt.compareSync(password, user.password)) {

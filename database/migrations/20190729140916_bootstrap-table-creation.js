@@ -1,25 +1,26 @@
 exports.up = function(knex) {
   return knex.schema
-    .createTable('Services', tbl => {
+    .createTable('services', tbl => {
       tbl.increments();
       tbl
-        .string('ServiceName')
+        .string('serviceName')
         .notNullable()
         .unique();
     })
-    .createTable('Partners', tbl => {
+    .createTable('partners', tbl => {
       tbl.increments();
-      tbl.string('name');
-      tbl.string('email');
-      tbl.string('city').notNullable();
-      tbl.string('state').notNullable();
-      tbl.float('longitude');
-      tbl.float('lattitude');
+      tbl.string('name', 128);
+      tbl.string('email', 64);
+      tbl.string('city')
+      tbl.string('state', 16)
+      tbl.string('country', 32)
+      tbl.float('longitude', 16);
+      tbl.float('lattitude', 16);
     })
-    .createTable('Homeless', tbl => {
+    .createTable('homeless', tbl => {
       tbl.increments();
-      tbl.string('FirstName', 32).notNullable();
-      tbl.string('LastName', 32).notNullable();
+      tbl.string('firstName', 32).notNullable();
+      tbl.string('lastName', 32).notNullable();
       tbl.string('city');
       tbl.string('state');
       tbl.integer('zip');
@@ -27,14 +28,14 @@ exports.up = function(knex) {
       tbl.float('longitude');
       tbl.float('lattitude');
     })
-    .createTable('PartnerServices', tbl => {
+    .createTable('partnerServices', tbl => {
       tbl.increments();
       tbl
         .integer('service_id')
         .unsigned()
         .notNullable()
         .references('id')
-        .inTable('Services')
+        .inTable('services')
         .onDelete('CASCADE')
         .onUpdate('CASCADE');
       tbl
@@ -42,18 +43,18 @@ exports.up = function(knex) {
         .unsigned()
         .notNullable()
         .references('id')
-        .inTable('Partners')
+        .inTable('partners')
         .onDelete('CASCADE')
         .onUpdate('CASCADE');
     })
-    .createTable('ServicesNeeded', tbl => {
+    .createTable('servicesNeeded', tbl => {
       tbl.increments();
       tbl
         .integer('service_id')
         .unsigned()
         .notNullable()
         .references('id')
-        .inTable('Services')
+        .inTable('services')
         .onDelete('CASCADE')
         .onUpdate('CASCADE');
       tbl
@@ -61,33 +62,17 @@ exports.up = function(knex) {
         .unsigned()
         .notNullable()
         .references('id')
-        .inTable('Homeless')
+        .inTable('homeless')
         .onDelete('CASCADE')
         .onUpdate('CASCADE');
     })
-    .createTable('PartnerContacts', tbl => {
-      tbl.increments();
-      tbl.string('FirstName', 32).notNullable();
-      tbl.string('LastName', 32).notNullable();
-      tbl.string('email').notNullable();
-      tbl.string('password').notNullable();
-      tbl
-        .integer('partner_id')
-        .unsigned()
-        .notNullable()
-        .references('id')
-        .inTable('Partners')
-        .onDelete('CASCADE')
-        .onUpdate('CASCADE');
-    });
 };
 
 exports.down = function(knex) {
   return knex.schema
-    .dropTableIfExists('PartnerContacts')
-    .dropTableIfExists('ServicesNeeded')
-    .dropTableIfExists('PartnerServices')
-    .dropTableIfExists('Homeless')
-    .dropTableIfExists('Partners')
-    .dropTableIfExists('Services');
+    .dropTableIfExists('servicesNeeded')
+    .dropTableIfExists('partnerServices')
+    .dropTableIfExists('homeless')
+    .dropTableIfExists('partners')
+    .dropTableIfExists('services');
 };

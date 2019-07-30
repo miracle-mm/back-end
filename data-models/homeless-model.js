@@ -1,6 +1,6 @@
 const knex = require('knex');
 
-const db = require('../../database/db-config.js');
+const db = require('../database/db-config.js');
 
 module.exports = {
   add,
@@ -10,21 +10,21 @@ module.exports = {
 };
 
 function find() {
-  return db('PartnerContacts').select('id', 'username', 'password');
+  return db('homeless').select('id', 'firstname', 'lastname', 'longitude', 'lattitude');
 }
 
 async function add(user) {
-  const [id] = await db('PartnerContacts').insert(user);
+  const [id] = await db('homeless').insert(user);
 
   return findById(id);
 }
 
 function findById(id) {
-  return db('PartnerContacts')
+  return db('homeless')
     .where({ id })
     .first();
 }
 
 function findBy(filter) {
-  return db('PartnerContacts').where(filter);
+  return db('homeless').where(filter);
 }

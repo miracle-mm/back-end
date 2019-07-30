@@ -15,12 +15,13 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     const homeless = req.body
+    homeless.created = Date.now()
     Homeless.add(homeless)
         .then(createdHomeless => {
             res.status(200).json(createdHomeless)
         })
         .catch(err => {
-            res.status(500).json({ message: 'Server error: Unable to create homeless person'})
+            res.status(500).json(err)
         })
 })
 

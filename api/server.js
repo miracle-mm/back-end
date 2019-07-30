@@ -16,6 +16,7 @@ server.use(bodyParser.urlencoded({ extended: true }));
 
 server.use('/api/auth', authRouter);
 server.use('/api/partners', partnerRouter)
+server.use('/api/homeless', homelessRouter)
 
 
 server.get('/', (req, res) => {

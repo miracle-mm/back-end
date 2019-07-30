@@ -32,11 +32,11 @@ function findBy(filter) {
 }
 
 async function update(id, changes) {
-
   const newPartner = await db('partners').update(changes).where({id})
+
   return findById(id)
 }
 
 async function remove (id){
-
+  return db('partners').del().where({id})
 }

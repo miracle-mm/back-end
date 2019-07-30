@@ -12,10 +12,10 @@ exports.up = function(knex) {
       tbl.string('name', 128);
       tbl.string('email', 64);
       tbl.string('city')
-      tbl.string('state', 16)
+      tbl.string('state', 32)
       tbl.string('country', 32)
-      tbl.float('longitude', 16);
-      tbl.float('lattitude', 16);
+      tbl.float('longitude', 32);
+      tbl.float('latitude', 32);
     })
     .createTable('homeless', tbl => {
       tbl.increments();
@@ -27,7 +27,7 @@ exports.up = function(knex) {
       tbl.string('country', 64)
       tbl.datetime('created');
       tbl.float('longitude');
-      tbl.float('lattitude');
+      tbl.float('latitude');
     })
     .createTable('partnerServices', tbl => {
       tbl.increments();

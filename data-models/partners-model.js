@@ -15,8 +15,10 @@ function find() {
   return db('partners').select('id', 'name', 'email', 'longitude', 'latitude');
 }
 
-async function add(user) {
-  const [id] = await db('partners').insert(user, 'id');
+async function add(partner) {
+  console.log('partner in data model', partner)
+  const [id] = await db('partners').insert(partner, 'id');
+  console.log('partner after Db add', id)
 
   return findById(id);
 }

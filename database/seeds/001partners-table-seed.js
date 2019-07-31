@@ -1,7 +1,7 @@
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex('partners').del()
+  return knex('partners').truncate()
     .then(function () {
       // Inserts seed entries
       return knex('partners').insert([
@@ -12,6 +12,7 @@ exports.seed = function(knex) {
           "email": "nicolezaborsky@charter.net",
           "longitude": -119.9843482,
           "latitude": 38.9332411,
+          "password": "password",
           "name": "Nicole Zaborsky"
         },
         {
@@ -21,6 +22,7 @@ exports.seed = function(knex) {
           "email": "jlbaker@nnva.gov",
           "longitude": -76.4321089,
           "latitude": 36.9786449,
+          "password": "password",
           "name": "Jill Baker"
         },
         {
@@ -30,6 +32,7 @@ exports.seed = function(knex) {
           "email": "meganb@higherbranches.org",
           "longitude": -84.5124602,
           "latitude": 39.1014537,
+          "password": "password",
           "name": null
         },
         {
@@ -39,6 +42,7 @@ exports.seed = function(knex) {
           "email": "pattis@ccsww.org",
           "longitude": -122.4398746,
           "latitude": 47.2495798,
+          "password": "password",
           "name": null
         },
         {
@@ -48,6 +52,7 @@ exports.seed = function(knex) {
           "email": "gillianz@gmail.com",
           "longitude": -121.8905833,
           "latitude": 37.3361905,
+          "password": "password",
           "name": null
         },
         {
@@ -57,6 +62,7 @@ exports.seed = function(knex) {
           "email": "linguyen@smchsa.org",
           "longitude": -122.3330573,
           "latitude": 37.496904,
+          "password": "password",
           "name": null
         },
         {
@@ -66,6 +72,7 @@ exports.seed = function(knex) {
           "email": "catherine@hsc-denver.org",
           "longitude": -104.9653271,
           "latitude": 39.7348381,
+          "password": "password",
           "name": null
         },
         {
@@ -75,6 +82,7 @@ exports.seed = function(knex) {
           "email": "thekingoftoys@yahoo.com",
           "longitude": -85.759407,
           "latitude": 38.2542376,
+          "password": "password",
           "name": null
         },
         {
@@ -84,6 +92,7 @@ exports.seed = function(knex) {
           "email": "marshfam2@yahoo.com",
           "longitude": -114.8324851,
           "latitude": 35.9785912,
+          "password": "password",
           "name": null
         },
         {
@@ -93,6 +102,7 @@ exports.seed = function(knex) {
           "email": "benkross@gmail.com",
           "longitude": -122.2485801,
           "latitude": 37.7857615,
+          "password": "password",
           "name": null
         },
         {
@@ -102,6 +112,7 @@ exports.seed = function(knex) {
           "email": "e.shenkman@gmail.com",
           "longitude": -76.2719012,
           "latitude": 39.468164,
+          "password": "password",
           "name": null
         },
         {
@@ -111,6 +122,7 @@ exports.seed = function(knex) {
           "email": "amber.mccutcheon@outlook.com",
           "longitude": -79.7182638,
           "latitude": 41.0170655,
+          "password": "password",
           "name": null
         },
         {
@@ -120,6 +132,7 @@ exports.seed = function(knex) {
           "email": "sherdavis56@gmail.com",
           "longitude": -96.7968559,
           "latitude": 32.7762719,
+          "password": "password",
           "name": null
         },
         {
@@ -129,6 +142,7 @@ exports.seed = function(knex) {
           "email": "cheadlee@gpb.org",
           "longitude": -84.3901849,
           "latitude": 33.7490987,
+          "password": "password",
           "name": null
         },
         {
@@ -138,6 +152,7 @@ exports.seed = function(knex) {
           "email": "dmarq11111@aol.com",
           "longitude": -117.435048,
           "latitude": 34.0922335,
+          "password": "password",
           "name": null
         },
         {
@@ -147,6 +162,7 @@ exports.seed = function(knex) {
           "email": "derekccline@me.com",
           "longitude": -81.3442915,
           "latitude": 35.7333312,
+          "password": "password",
           "name": null
         },
         {
@@ -156,6 +172,7 @@ exports.seed = function(knex) {
           "email": "michelle@vikingpremiumprint.com",
           "longitude": -111.8314773,
           "latitude": 33.4151117,
+          "password": "password",
           "name": null
         },
         {
@@ -165,6 +182,7 @@ exports.seed = function(knex) {
           "email": "gf@petsofthehomeless.org",
           "longitude": -116.8537227,
           "latitude": 39.5158825,
+          "password": "password",
           "name": null
         },
         {
@@ -174,6 +192,7 @@ exports.seed = function(knex) {
           "email": "nunezahmed@gmail.com",
           "longitude": -74.0060152,
           "latitude": 40.7127281,
+          "password": "password",
           "name": null
         },
         {
@@ -183,6 +202,7 @@ exports.seed = function(knex) {
           "email": "james@crosspoint247.com",
           "longitude": -95.339711,
           "latitude": 29.9906423,
+          "password": "password",
           "name": null
         },
         {
@@ -192,6 +212,7 @@ exports.seed = function(knex) {
           "email": "loren@ti2ts.com",
           "longitude": -98.4951405,
           "latitude": 29.4246002,
+          "password": "password",
           "name": null
         },
         {
@@ -201,6 +222,7 @@ exports.seed = function(knex) {
           "email": "cityofdestinyoutreach@gmail.com",
           "longitude": -122.4398746,
           "latitude": 47.2495798,
+          "password": "password",
           "name": null
         },
         {
@@ -210,6 +232,7 @@ exports.seed = function(knex) {
           "email": "heather@soundoutreach.org",
           "longitude": -122.4398746,
           "latitude": 47.2495798,
+          "password": "password",
           "name": null
         },
         {
@@ -219,6 +242,7 @@ exports.seed = function(knex) {
           "email": "gonsalesc@rcs4kids.org",
           "longitude": -123.2077861,
           "latitude": 39.1501662,
+          "password": "password",
           "name": null
         },
         {
@@ -228,6 +252,7 @@ exports.seed = function(knex) {
           "email": "lori@renocpr.org",
           "longitude": -119.8136744,
           "latitude": 39.52927,
+          "password": "password",
           "name": "Lori Broussard"
         },
         {
@@ -237,6 +262,7 @@ exports.seed = function(knex) {
           "email": "ndco@ndco.com",
           "longitude": -79.1802994,
           "latitude": 35.4798757,
+          "password": "password",
           "name": "Debra Thomas"
         },
         {
@@ -246,6 +272,7 @@ exports.seed = function(knex) {
           "email": "jwilson@yorkrescuemission.org",
           "longitude": -76.727392,
           "latitude": 39.962398,
+          "password": "password",
           "name": "Jan Wilson"
         },
         {
@@ -255,6 +282,7 @@ exports.seed = function(knex) {
           "email": "paulette@whitekettle.com",
           "longitude": -75.3399048,
           "latitude": 40.121497,
+          "password": "password",
           "name": "Paulette Whitekettle"
         },
         {
@@ -264,6 +292,7 @@ exports.seed = function(knex) {
           "email": "guardianofthepeople1@gmail.com",
           "longitude": -117.1627714,
           "latitude": 32.7174209,
+          "password": "password",
           "name": null
         },
         {
@@ -273,6 +302,7 @@ exports.seed = function(knex) {
           "email": "amhouse1@gmail.com",
           "longitude": -75.0439566,
           "latitude": 40.0133374,
+          "password": "password",
           "name": null
         },
         {
@@ -282,6 +312,7 @@ exports.seed = function(knex) {
           "email": "aot4tn@gmail.com",
           "longitude": -83.9210261,
           "latitude": 35.9603948,
+          "password": "password",
           "name": null
         },
         {
@@ -291,6 +322,7 @@ exports.seed = function(knex) {
           "email": "brad.chinn@gmail.com",
           "longitude": -117.8704931,
           "latitude": 33.7500378,
+          "password": "password",
           "name": null
         },
         {
@@ -300,6 +332,7 @@ exports.seed = function(knex) {
           "email": "zenmomtofour@gmail.com",
           "longitude": -122.2848908,
           "latitude": 47.5504875,
+          "password": "password",
           "name": null
         },
         {
@@ -309,6 +342,7 @@ exports.seed = function(knex) {
           "email": "joeyylambert@gmail.com",
           "longitude": -71.467566,
           "latitude": 42.7653662,
+          "password": "password",
           "name": "Joe Lambert"
         },
         {
@@ -318,6 +352,7 @@ exports.seed = function(knex) {
           "email": "osheacanyousee@gmail.com",
           "longitude": -118.2427666,
           "latitude": 34.0536909,
+          "password": "password",
           "name": "Brendan O'Shea"
         },
         {
@@ -327,6 +362,7 @@ exports.seed = function(knex) {
           "email": "jeff@nonchalance.com",
           "longitude": -74.2430988,
           "latitude": 41.0220483,
+          "password": "password",
           "name": null
         },
         {
@@ -336,6 +372,7 @@ exports.seed = function(knex) {
           "email": "monica@miriamskitchen.org",
           "longitude": -77.0365625,
           "latitude": 38.8950092,
+          "password": "password",
           "name": "Mónica Díaz"
         },
         {
@@ -345,6 +382,7 @@ exports.seed = function(knex) {
           "email": "thepalms1312@outlook.com",
           "longitude": -115.149225,
           "latitude": 36.1662859,
+          "password": "password",
           "name": "Jack Burress"
         },
         {
@@ -354,6 +392,7 @@ exports.seed = function(knex) {
           "email": "info@nonprofitleader.org",
           "longitude": -122.3300624,
           "latitude": 47.6038321,
+          "password": "password",
           "name": "Garhett Morgan"
         },
         {
@@ -363,6 +402,7 @@ exports.seed = function(knex) {
           "email": "alisondougherty@hotmail.com",
           "longitude": -74.050084,
           "latitude": 40.402965,
+          "password": "password",
           "name": null
         },
         {
@@ -372,6 +412,7 @@ exports.seed = function(knex) {
           "email": "melissa.sullivan.a@gmail.com",
           "longitude": -77.0365625,
           "latitude": 38.8950092,
+          "password": "password",
           "name": null
         },
         {
@@ -381,6 +422,7 @@ exports.seed = function(knex) {
           "email": "clayfam1@yahoo.com",
           "longitude": -97.3327459,
           "latitude": 32.753177,
+          "password": "password",
           "name": null
         },
         {
@@ -390,6 +432,7 @@ exports.seed = function(knex) {
           "email": "moore826@gmail.com",
           "longitude": -73.9495823,
           "latitude": 40.6501038,
+          "password": "password",
           "name": "Kathryn Moore"
         },
         {
@@ -399,6 +442,7 @@ exports.seed = function(knex) {
           "email": "marcabruno@yahoo.com",
           "longitude": -77.7278831,
           "latitude": 40.9699889,
+          "password": "password",
           "name": null
         },
         {
@@ -408,6 +452,7 @@ exports.seed = function(knex) {
           "email": "garry.b.ancheta@gmail.com",
           "longitude": -111.6514259,
           "latitude": 35.199458,
+          "password": "password",
           "name": null
         },
         {
@@ -417,6 +462,7 @@ exports.seed = function(knex) {
           "email": "dagphx@aol.com",
           "longitude": -112.0773456,
           "latitude": 33.4485866,
+          "password": "password",
           "name": null
         },
         {
@@ -426,6 +472,7 @@ exports.seed = function(knex) {
           "email": "ryan.r.montague@gmail.com",
           "longitude": -117.9056046,
           "latitude": 34.1338751,
+          "password": "password",
           "name": null
         },
         {
@@ -435,6 +482,7 @@ exports.seed = function(knex) {
           "email": "jen.mcclure@jem.consulting",
           "longitude": -122.3558473,
           "latitude": 37.7884969,
+          "password": "password",
           "name": null
         },
         {
@@ -444,6 +492,7 @@ exports.seed = function(knex) {
           "email": "ejmorera32@gmail.com",
           "longitude": -122.2728639,
           "latitude": 37.8708393,
+          "password": "password",
           "name": null
         },
         {
@@ -453,6 +502,7 @@ exports.seed = function(knex) {
           "email": "sarahoh00@gmail.com",
           "longitude": -77.1794182,
           "latitude": 37.3182038,
+          "password": "password",
           "name": "Sarah Oh"
         },
         {
@@ -462,6 +512,7 @@ exports.seed = function(knex) {
           "email": "kayleyschvaneveldt@yahoo.com",
           "longitude": -74.27719,
           "latitude": 39.980387,
+          "password": "password",
           "name": null
         },
         {
@@ -471,6 +522,7 @@ exports.seed = function(knex) {
           "email": "gilly999@aol.com",
           "longitude": -118.2517547,
           "latitude": 33.8322043,
+          "password": "password",
           "name": "Gilbert Yi"
         },
         {
@@ -480,6 +532,7 @@ exports.seed = function(knex) {
           "email": "janette.loreto@gmail.com",
           "longitude": -117.6981075,
           "latitude": 33.4669721,
+          "password": "password",
           "name": null
         },
         {
@@ -489,6 +542,7 @@ exports.seed = function(knex) {
           "email": "michelleyun99@gmail.com",
           "longitude": -80.3948048,
           "latitude": 27.3542452,
+          "password": "password",
           "name": null
         },
         {
@@ -498,6 +552,7 @@ exports.seed = function(knex) {
           "email": "kasseejohnson@yahoo.com",
           "longitude": -119.7088612608,
           "latitude": 36.7295295,
+          "password": "password",
           "name": "Kassee Johnson"
         },
         {
@@ -507,6 +562,7 @@ exports.seed = function(knex) {
           "email": "mbrown@markbrownconsulting.com",
           "longitude": -118.1916048,
           "latitude": 33.7690164,
+          "password": "password",
           "name": null
         },
         {
@@ -516,6 +572,7 @@ exports.seed = function(knex) {
           "email": "sford@coalongitudebeach.org",
           "longitude": -118.1916048,
           "latitude": 33.7690164,
+          "password": "password",
           "name": null
         },
         {
@@ -525,6 +582,7 @@ exports.seed = function(knex) {
           "email": "sumsumdimsum@verizon.net",
           "longitude": -118.1916048,
           "latitude": 33.7690164,
+          "password": "password",
           "name": null
         },
         {
@@ -534,6 +592,7 @@ exports.seed = function(knex) {
           "email": "wefindfamily@hotmail.com",
           "longitude": -118.1916048,
           "latitude": 33.7690164,
+          "password": "password",
           "name": null
         },
         {
@@ -543,6 +602,7 @@ exports.seed = function(knex) {
           "email": "bakersue6@gmail.com",
           "longitude": -118.1916048,
           "latitude": 33.7690164,
+          "password": "password",
           "name": null
         },
         {
@@ -552,6 +612,7 @@ exports.seed = function(knex) {
           "email": "mcmolidor@me.com",
           "longitude": -118.2427666,
           "latitude": 34.0536909,
+          "password": "password",
           "name": null
         },
         {
@@ -561,6 +622,7 @@ exports.seed = function(knex) {
           "email": "boyerkate@me.com",
           "longitude": -118.2427666,
           "latitude": 34.0536909,
+          "password": "password",
           "name": null
         },
         {
@@ -570,6 +632,7 @@ exports.seed = function(knex) {
           "email": "salim@salim.cc",
           "longitude": -118.2427666,
           "latitude": 34.0536909,
+          "password": "password",
           "name": null
         },
         {
@@ -579,6 +642,7 @@ exports.seed = function(knex) {
           "email": "rachelle@inner-cityarts.org",
           "longitude": -118.2427666,
           "latitude": 34.0536909,
+          "password": "password",
           "name": null
         },
         {
@@ -588,6 +652,7 @@ exports.seed = function(knex) {
           "email": "gina.m.didomenico@lacity.org",
           "longitude": -118.2427666,
           "latitude": 34.0536909,
+          "password": "password",
           "name": null
         },
         {
@@ -597,6 +662,7 @@ exports.seed = function(knex) {
           "email": "bpack@usc.edu",
           "longitude": -118.2427666,
           "latitude": 34.0536909,
+          "password": "password",
           "name": "Ben Pack"
         },
         {
@@ -606,6 +672,7 @@ exports.seed = function(knex) {
           "email": "pamela@malawbu.com",
           "longitude": -74.350679,
           "latitude": 40.577346,
+          "password": "password",
           "name": null
         },
         {
@@ -615,6 +682,7 @@ exports.seed = function(knex) {
           "email": "alishamerlo@gmail.com",
           "longitude": -121.5157402708,
           "latitude": 38.4817455208,
+          "password": "password",
           "name": "Alisha Merlo"
         },
         {
@@ -624,6 +692,7 @@ exports.seed = function(knex) {
           "email": "kuangkai@gmail.com",
           "longitude": -117.1627714,
           "latitude": 32.7174209,
+          "password": "password",
           "name": "Kuangkai Tai"
         },
         {
@@ -633,6 +702,7 @@ exports.seed = function(knex) {
           "email": "marie.c.francis@gmail.com",
           "longitude": -122.4102982,
           "latitude": 37.7768091,
+          "password": "password",
           "name": "Marie Francis"
         },
         {
@@ -642,6 +712,7 @@ exports.seed = function(knex) {
           "email": "halker.bryan@gmail.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -651,6 +722,7 @@ exports.seed = function(knex) {
           "email": "bryantrobert05@gmail.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -660,6 +732,7 @@ exports.seed = function(knex) {
           "email": "gslangen@sffriendsschool.org",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -669,6 +742,7 @@ exports.seed = function(knex) {
           "email": "lkessler@salesforce.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -678,6 +752,7 @@ exports.seed = function(knex) {
           "email": "robertsneddenedwards@gmail.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": "Rob Edwards"
         },
         {
@@ -687,6 +762,7 @@ exports.seed = function(knex) {
           "email": "zhenghuihua35@gmail.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -696,6 +772,7 @@ exports.seed = function(knex) {
           "email": "jpc1003@gmail.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -705,6 +782,7 @@ exports.seed = function(knex) {
           "email": "wileywriter@gmail.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -714,6 +792,7 @@ exports.seed = function(knex) {
           "email": "sdsmith@kilpatricktownsend.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": "Shelley Smith"
         },
         {
@@ -723,6 +802,7 @@ exports.seed = function(knex) {
           "email": "casey@cameronhouse.org",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -732,6 +812,7 @@ exports.seed = function(knex) {
           "email": "adj032008@gmail.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": "Alicia Johnson"
         },
         {
@@ -741,6 +822,7 @@ exports.seed = function(knex) {
           "email": "aldo.pascalin@gmail.com",
           "longitude": -122.4192363,
           "latitude": 37.7792808,
+          "password": "password",
           "name": null
         },
         {
@@ -750,6 +832,7 @@ exports.seed = function(knex) {
           "email": "gurudatta11@gmail.com",
           "longitude": -121.8905833,
           "latitude": 37.3361905,
+          "password": "password",
           "name": null
         },
         {
@@ -759,6 +842,7 @@ exports.seed = function(knex) {
           "email": "doctor33@mac.com",
           "longitude": -118.4739521,
           "latitude": 33.9860867,
+          "password": "password",
           "name": null
         },
         {
@@ -768,6 +852,7 @@ exports.seed = function(knex) {
           "email": "1laniblue@gmail.com",
           "longitude": -119.2951710105,
           "latitude": 34.343649,
+          "password": "password",
           "name": null
         },
         {
@@ -777,6 +862,7 @@ exports.seed = function(knex) {
           "email": "mollyacorbett@gmail.com",
           "longitude": -119.2951710105,
           "latitude": 34.343649,
+          "password": "password",
           "name": null
         },
         {
@@ -786,6 +872,7 @@ exports.seed = function(knex) {
           "email": "alison@citynet.org",
           "longitude": -117.8732213,
           "latitude": 33.7494951,
+          "password": "password",
           "name": "Ali Mode"
         },
         {
@@ -795,6 +882,7 @@ exports.seed = function(knex) {
           "email": "greg@streetsteam.org",
           "longitude": -122.0285259,
           "latitude": 36.9749416,
+          "password": "password",
           "name": "Greg Pensinger"
         },
         {
@@ -804,6 +892,7 @@ exports.seed = function(knex) {
           "email": "altapuella@gmail.com",
           "longitude": -122.4081251,
           "latitude": 37.6549493,
+          "password": "password",
           "name": "Rose Kitchel"
         },
         {
@@ -813,6 +902,7 @@ exports.seed = function(knex) {
           "email": "micaela.seiden@gmail.com",
           "longitude": -98.5722461,
           "latitude": 43.6963371,
+          "password": "password",
           "name": null
         },
         {
@@ -822,6 +912,7 @@ exports.seed = function(knex) {
           "email": "justin@utopiaeducation.com",
           "longitude": -84.414393,
           "latitude": 38.015691,
+          "password": "password",
           "name": null
         },
         {
@@ -831,6 +922,7 @@ exports.seed = function(knex) {
           "email": "anncooper1025@gmail.com",
           "longitude": -105.2705456,
           "latitude": 40.0149856,
+          "password": "password",
           "name": null
         },
         {
@@ -840,6 +932,7 @@ exports.seed = function(knex) {
           "email": "nickfalls@gmail.com",
           "longitude": -104.9653271,
           "latitude": 39.7348381,
+          "password": "password",
           "name": null
         },
         {
@@ -849,6 +942,7 @@ exports.seed = function(knex) {
           "email": "angela.n.grau@gmail.com",
           "longitude": -104.9653271,
           "latitude": 39.7348381,
+          "password": "password",
           "name": null
         },
         {
@@ -858,6 +952,7 @@ exports.seed = function(knex) {
           "email": "believe.love.serve@gmail.com",
           "longitude": -104.9848623,
           "latitude": 39.7392364,
+          "password": "password",
           "name": null
         },
         {
@@ -867,6 +962,7 @@ exports.seed = function(knex) {
           "email": "maggiexmarino52@hotmail.com",
           "longitude": -74.340227,
           "latitude": 40.5927,
+          "password": "password",
           "name": null
         },
         {
@@ -876,6 +972,7 @@ exports.seed = function(knex) {
           "email": "erin@theimpactfactor.org",
           "longitude": -104.9653271,
           "latitude": 39.7348381,
+          "password": "password",
           "name": null
         },
         {
@@ -885,6 +982,7 @@ exports.seed = function(knex) {
           "email": "jennbeach.1121@gmail.com",
           "longitude": -104.9653271,
           "latitude": 39.7348381,
+          "password": "password",
           "name": null
         },
         {
@@ -894,6 +992,7 @@ exports.seed = function(knex) {
           "email": "amythetorch@gmail.com",
           "longitude": -81.0226483,
           "latitude": 29.209288,
+          "password": "password",
           "name": null
         },
         {
@@ -903,6 +1002,7 @@ exports.seed = function(knex) {
           "email": "faithkirkland11@aol.com",
           "longitude": -86.4957834,
           "latitude": 30.3935337,
+          "password": "password",
           "name": null
         },
         {
@@ -912,6 +1012,7 @@ exports.seed = function(knex) {
           "email": "ladycf22@aol.com",
           "longitude": -80.1433786,
           "latitude": 26.1223084,
+          "password": "password",
           "name": null
         },
         {
@@ -921,6 +1022,7 @@ exports.seed = function(knex) {
           "email": "skippingfun@gmail.com",
           "longitude": -80.1433786,
           "latitude": 26.1223084,
+          "password": "password",
           "name": "Lauren Goldman"
         },
         {
@@ -930,6 +1032,7 @@ exports.seed = function(knex) {
           "email": "tanyajobrown@gmail.com",
           "longitude": -80.1433786,
           "latitude": 26.1223084,
+          "password": "password",
           "name": null
         },
         {
@@ -939,6 +1042,7 @@ exports.seed = function(knex) {
           "email": "junk@greedradio.com",
           "longitude": -118.1536969,
           "latitude": 34.0676331,
+          "password": "password",
           "name": "SCOtty Klause"
         },
         {
@@ -948,6 +1052,7 @@ exports.seed = function(knex) {
           "email": "sammielynchristensen@gmail.com",
           "longitude": -83.376398,
           "latitude": 33.9597677,
+          "password": "password",
           "name": null
         },
         {
@@ -957,6 +1062,7 @@ exports.seed = function(knex) {
           "email": "laurensteffes@gmail.com",
           "longitude": -83.376398,
           "latitude": 33.9597677,
+          "password": "password",
           "name": null
         },
         {
@@ -966,6 +1072,7 @@ exports.seed = function(knex) {
           "email": "cameron.markham@turner.com",
           "longitude": -84.3901849,
           "latitude": 33.7490987,
+          "password": "password",
           "name": null
         }
       ]);

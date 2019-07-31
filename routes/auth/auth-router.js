@@ -6,16 +6,16 @@ const generateToken = require('../../auth/generateToken.js');
 
 router.post('/register', (req, res) => {
   const user = req.body;
-  console.log(user);
   const hashPW = bcrypt.hashSync(user.password, 10);
   user.password = hashPW;
-
+  console.log('register user input', user);
+  
   Partners.add(user)
     .then(createdUser => {
       res.status(200).json(createdUser);
     })
     .catch(err => {
-      res.status(500).json({ message: 'Server error: Unable to create User' });
+      res.status(500).json(err);
     });
 });
 
@@ -27,7 +27,7 @@ router.post('/login', (req, res) => {
       if (user && bcrypt.compareSync(password, user.password)) {
         const token = generateToken(user);
         res.status(200).json({
-          message: `Welcome ${user.FirstName} ${user.LastName}`,
+          message: `Welcome ${user.email}`,
           token
         });
       } else {

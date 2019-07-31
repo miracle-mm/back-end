@@ -43,7 +43,7 @@ router.get('/:id', (req, res) => {
 router.put('/:id', (req, res) => {
     const {id} = req.params
 
-    Partner.update(id, req.body)
+    Partners.update(id, req.body)
         .then(updatedPartner => {
             res.status(200).json(updatedPartner)
         })
@@ -55,7 +55,7 @@ router.put('/:id', (req, res) => {
 router.delete('/:id', (req, res) => {
     const {id} = req.params
 
-    Partner.remove(id)
+    Partners.remove(id)
         .then(deletedPartner => {
             res.status(204).end()
         })

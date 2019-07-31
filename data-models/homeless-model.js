@@ -32,7 +32,8 @@ function findBy(filter) {
 }
 
 async function update(id, changes) {
-  const newPartner = await db('homeless').update(changes).where({id})
+  const updatedHomeless = await db('homeless').update(changes).where({id})
+  console.log(updatedHomeless)
 
   return findById(id)
 }

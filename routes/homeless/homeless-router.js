@@ -61,7 +61,7 @@ router.delete('/:id', (req, res) => {
             res.status(204).end()
         })
         .catch(error => {
-            res.status(500).json({message: 'Could not update Homeless Person'})
+            res.status(500).json({message: 'Could not delete Homeless Person'})
         })
 })
 

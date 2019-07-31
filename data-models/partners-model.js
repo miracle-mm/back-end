@@ -15,8 +15,9 @@ function find() {
   return db('partners').select('id', 'name', 'email', 'longitude', 'latitude');
 }
 
-async function add(user) {
-  const [id] = await db('partners').insert(user, 'id');
+async function add(partner) {
+
+  const [id] = await db('partners').insert(partner, 'id');
 
   return findById(id);
 }

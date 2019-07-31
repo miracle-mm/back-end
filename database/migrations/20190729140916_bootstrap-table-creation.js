@@ -16,6 +16,7 @@ exports.up = function(knex) {
       tbl.string('country', 32)
       tbl.float('longitude', 32);
       tbl.float('latitude', 32);
+      tbl.string('password').notNullable()
     })
     .createTable('homeless', tbl => {
       tbl.increments();

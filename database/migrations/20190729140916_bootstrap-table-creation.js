@@ -10,7 +10,7 @@ exports.up = function(knex) {
     .createTable('partners', tbl => {
       tbl.increments();
       tbl.string('name', 128);
-      tbl.string('email', 64);
+      tbl.string('email', 64).notNullable()
       tbl.string('city')
       tbl.string('state', 32)
       tbl.string('country', 32)

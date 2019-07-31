@@ -12,7 +12,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "jasonober@gmail.com",
           "longitude": -83.4129254,
-          "lattitude": 30.4693772,
+          "latitude": 30.4693772,
           "name": null
         },
         {
@@ -21,7 +21,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "hands842@gmail.com",
           "longitude": -83.4129254,
-          "lattitude": 30.4693772,
+          "latitude": 30.4693772,
           "name": null
         },
         {
@@ -30,7 +30,7 @@ exports.seed = function(knex) {
           "state": "West Virginia",
           "email": "bldsckr52@yahoo.com",
           "longitude": -82.445154,
-          "lattitude": 38.4192496,
+          "latitude": 38.4192496,
           "name": "Michelle Ramey"
         },
         {
@@ -39,7 +39,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "jason@onereachcity.com",
           "longitude": -118.8433527,
-          "lattitude": 34.1712252,
+          "latitude": 34.1712252,
           "name": null
         },
         {
@@ -48,7 +48,7 @@ exports.seed = function(knex) {
           "state": "North Carolina",
           "email": "rkerse@ymail.com",
           "longitude": -78.878292,
-          "lattitude": 35.0525759,
+          "latitude": 35.0525759,
           "name": null
         },
         {
@@ -57,7 +57,7 @@ exports.seed = function(knex) {
           "state": "Michigan",
           "email": "melissarice2013@yahoo.com",
           "longitude": -86.154682,
-          "lattitude": 43.13067,
+          "latitude": 43.13067,
           "name": null
         },
         {
@@ -66,7 +66,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "isabelulm98@ufl.edu",
           "longitude": -82.3249961,
-          "lattitude": 29.6519396,
+          "latitude": 29.6519396,
           "name": null
         },
         {
@@ -75,7 +75,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "brochebrun16@ufl.edu",
           "longitude": -82.3249961,
-          "lattitude": 29.6519396,
+          "latitude": 29.6519396,
           "name": null
         },
         {
@@ -84,7 +84,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "camar291@yahoo.com",
           "longitude": -118.3053037,
-          "lattitude": 33.8963593,
+          "latitude": 33.8963593,
           "name": null
         },
         {
@@ -93,7 +93,7 @@ exports.seed = function(knex) {
           "state": "Oregon",
           "email": "catbonney@gmail.com",
           "longitude": -123.3272489,
-          "lattitude": 42.4393707,
+          "latitude": 42.4393707,
           "name": null
         },
         {
@@ -102,7 +102,7 @@ exports.seed = function(knex) {
           "state": "Texas",
           "email": "toniacasper@yahoo.com",
           "longitude": -97.0780654,
-          "lattitude": 32.9342919,
+          "latitude": 32.9342919,
           "name": null
         },
         {
@@ -111,7 +111,7 @@ exports.seed = function(knex) {
           "state": "Kentucky",
           "email": "jaedw@yahoo.com",
           "longitude": -87.1788854,
-          "lattitude": 37.2011539,
+          "latitude": 37.2011539,
           "name": null
         },
         {
@@ -120,7 +120,7 @@ exports.seed = function(knex) {
           "state": "Oregon",
           "email": "adam49ric@yahoo.com",
           "longitude": -122.4367058,
-          "lattitude": 45.5067406,
+          "latitude": 45.5067406,
           "name": null
         },
         {
@@ -129,7 +129,7 @@ exports.seed = function(knex) {
           "state": "Hawaii",
           "email": "ebnielsen54@gmail.com",
           "longitude": -158.1050145,
-          "lattitude": 21.5817934,
+          "latitude": 21.5817934,
           "name": null
         },
         {
@@ -138,7 +138,7 @@ exports.seed = function(knex) {
           "state": "Connecticut",
           "email": "frippjay@msn.com",
           "longitude": -72.8968716,
-          "lattitude": 41.3959287,
+          "latitude": 41.3959287,
           "name": null
         },
         {
@@ -147,7 +147,7 @@ exports.seed = function(knex) {
           "state": "Connecticut",
           "email": "bryanbsurfin@sbcglobal.net",
           "longitude": -72.6908547,
-          "lattitude": 41.764582,
+          "latitude": 41.764582,
           "name": null
         },
         {
@@ -156,7 +156,7 @@ exports.seed = function(knex) {
           "state": "Idaho",
           "email": "dminerath@msn.com",
           "longitude": -116.7866807,
-          "lattitude": 47.7590638,
+          "latitude": 47.7590638,
           "name": null
         },
         {
@@ -165,7 +165,7 @@ exports.seed = function(knex) {
           "state": "Tennessee",
           "email": "volunteer@goodsamjc.org",
           "longitude": -82.3534728,
-          "lattitude": 36.3134398,
+          "latitude": 36.3134398,
           "name": null
         },
         {
@@ -174,7 +174,7 @@ exports.seed = function(knex) {
           "state": "Kansas",
           "email": "brittneelhaynes@gmail.com",
           "longitude": -94.626497,
-          "lattitude": 39.1134562,
+          "latitude": 39.1134562,
           "name": null
         },
         {
@@ -183,7 +183,7 @@ exports.seed = function(knex) {
           "state": "Missouri",
           "email": "gdoll@swopehealth.org",
           "longitude": -94.5781416,
-          "lattitude": 39.100105,
+          "latitude": 39.100105,
           "name": null
         },
         {
@@ -192,7 +192,7 @@ exports.seed = function(knex) {
           "state": "Texas",
           "email": "ryan@mlckaty.com",
           "longitude": -95.8243956,
-          "lattitude": 29.7857853,
+          "latitude": 29.7857853,
           "name": null
         },
         {
@@ -201,7 +201,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "exdir.shal@gmail.com",
           "longitude": -81.7724368,
-          "lattitude": 24.5625566,
+          "latitude": 24.5625566,
           "name": null
         },
         {
@@ -210,7 +210,7 @@ exports.seed = function(knex) {
           "state": "Tennessee",
           "email": "amandat421@gmail.com",
           "longitude": -83.9210261,
-          "lattitude": 35.9603948,
+          "latitude": 35.9603948,
           "name": null
         },
         {
@@ -219,7 +219,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "mherbolich@gmail.com",
           "longitude": -117.7834147,
-          "lattitude": 33.5420888,
+          "latitude": 33.5420888,
           "name": "Matthew Herbolich"
         },
         {
@@ -228,7 +228,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "gillianpar@gmail.com",
           "longitude": -122.9158293,
-          "lattitude": 39.0429506,
+          "latitude": 39.0429506,
           "name": null
         },
         {
@@ -237,7 +237,7 @@ exports.seed = function(knex) {
           "state": "Ohio",
           "email": "mimiistheboss2012@gmail.com",
           "longitude": -84.1052256,
-          "lattitude": 40.742551,
+          "latitude": 40.742551,
           "name": null
         },
         {
@@ -246,7 +246,7 @@ exports.seed = function(knex) {
           "state": "Arkansas",
           "email": "jessica.watts@lrsd.org",
           "longitude": -92.2895948,
-          "lattitude": 34.7464809,
+          "latitude": 34.7464809,
           "name": null
         },
         {
@@ -255,7 +255,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "brcarrillo4809@gmail.com",
           "longitude": -121.2117148,
-          "lattitude": 37.7986184,
+          "latitude": 37.7986184,
           "name": "blanca carrillo"
         },
         {
@@ -264,7 +264,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "tentcityhelpers@yahoo.com",
           "longitude": -80.3994412,
-          "lattitude": 27.0673711,
+          "latitude": 27.0673711,
           "name": null
         },
         {
@@ -273,7 +273,7 @@ exports.seed = function(knex) {
           "state": "Massachusetts",
           "email": "kimdave67@yahoo.com",
           "longitude": -72.032366,
-          "lattitude": 42.3788774,
+          "latitude": 42.3788774,
           "name": null
         },
         {
@@ -282,7 +282,7 @@ exports.seed = function(knex) {
           "state": "Tennessee",
           "email": "sybilmitchell1109@gmail.com",
           "longitude": -90.0516285,
-          "lattitude": 35.1490215,
+          "latitude": 35.1490215,
           "name": null
         },
         {
@@ -291,7 +291,7 @@ exports.seed = function(knex) {
           "state": "Pennsylvania",
           "email": "apr_reid@icloud.com",
           "longitude": -80.3014412,
-          "lattitude": 41.3334542,
+          "latitude": 41.3334542,
           "name": null
         },
         {
@@ -300,7 +300,7 @@ exports.seed = function(knex) {
           "state": "Arizona",
           "email": "diana.pacheco@asu.edu",
           "longitude": -114.0824451,
-          "lattitude": 34.2700153,
+          "latitude": 34.2700153,
           "name": null
         },
         {
@@ -309,7 +309,7 @@ exports.seed = function(knex) {
           "state": "Wisconsin",
           "email": "kkohler@unitedwaygmwc.org",
           "longitude": -87.922497,
-          "lattitude": 43.0349931,
+          "latitude": 43.0349931,
           "name": null
         },
         {
@@ -318,7 +318,7 @@ exports.seed = function(knex) {
           "state": "Wisconsin",
           "email": "gerald.fischer@mu.edu",
           "longitude": -87.922497,
-          "lattitude": 43.0349931,
+          "latitude": 43.0349931,
           "name": null
         },
         {
@@ -327,7 +327,7 @@ exports.seed = function(knex) {
           "state": "Minnesota",
           "email": "pathfinder289@gmail.com",
           "longitude": -93.2682177358,
-          "lattitude": 44.9706705,
+          "latitude": 44.9706705,
           "name": null
         },
         {
@@ -336,7 +336,7 @@ exports.seed = function(knex) {
           "state": "Alabama",
           "email": "justin102274@gmail.com",
           "longitude": -88.0430541,
-          "lattitude": 30.6943566,
+          "latitude": 30.6943566,
           "name": null
         },
         {
@@ -345,7 +345,7 @@ exports.seed = function(knex) {
           "state": "Washington",
           "email": "deidre.shaughnessy@gmail.com",
           "longitude": -120.5710757,
-          "lattitude": 46.6095846,
+          "latitude": 46.6095846,
           "name": null
         },
         {
@@ -354,7 +354,7 @@ exports.seed = function(knex) {
           "state": "West Virginia",
           "email": "melissanutter@gmail.com",
           "longitude": -79.9559437,
-          "lattitude": 39.6296809,
+          "latitude": 39.6296809,
           "name": "Melissa Nutter"
         },
         {
@@ -363,7 +363,7 @@ exports.seed = function(knex) {
           "state": "Tennessee",
           "email": "vargasmegan1979@gmail.com",
           "longitude": -86.7743531,
-          "lattitude": 36.1622296,
+          "latitude": 36.1622296,
           "name": "Megan Vargas"
         },
         {
@@ -372,7 +372,7 @@ exports.seed = function(knex) {
           "state": "Tennessee",
           "email": "nhale@madisonchurchtn.org",
           "longitude": -86.7743531,
-          "lattitude": 36.1622296,
+          "latitude": 36.1622296,
           "name": null
         },
         {
@@ -381,7 +381,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "dirtykidcouchsurfingcoalition@gmail.com",
           "longitude": -75.8449946,
-          "lattitude": 43.1561681,
+          "latitude": 43.1561681,
           "name": null
         },
         {
@@ -390,7 +390,7 @@ exports.seed = function(knex) {
           "state": "New Jersey",
           "email": "andrewlee524@gmail.com",
           "longitude": -74.1403164,
-          "lattitude": 40.6466686,
+          "latitude": 40.6466686,
           "name": null
         },
         {
@@ -399,7 +399,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "marie_singletary@fitnyc.edu",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -408,7 +408,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "alexsia77@hotmail.com",
           "longitude": -73.8017072,
-          "lattitude": 40.6421858,
+          "latitude": 40.6421858,
           "name": "Alexandra Lopez de Haro"
         },
         {
@@ -417,7 +417,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "corey@newyorkcityrelief.org",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -426,7 +426,7 @@ exports.seed = function(knex) {
           "state": "New Jersey",
           "email": "halweiner@gmail.com",
           "longitude": -74.1403164,
-          "lattitude": 40.6466686,
+          "latitude": 40.6466686,
           "name": null
         },
         {
@@ -435,7 +435,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "mdolaway@covenanthouse.org",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -444,7 +444,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "denoixarnaud@gmail.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -453,7 +453,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "devynbrook@gmail.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": "devyn skye brook"
         },
         {
@@ -462,7 +462,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "syed.daniyal60@myhunter.cuny.edu",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -471,7 +471,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "jmchen1115@gmail.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": "Justin Chen"
         },
         {
@@ -480,7 +480,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "kristiek823@gmail.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -489,7 +489,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "kristen.ablamsky@starthatching.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -498,7 +498,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "milopacheco@gmail.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -507,7 +507,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "wendyliuc@gmail.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -516,7 +516,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "francesca.tucker92@gmail.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -525,7 +525,7 @@ exports.seed = function(knex) {
           "state": "New Jersey",
           "email": "nathoo.a.ali@gmail.com",
           "longitude": -74.1723667,
-          "lattitude": 40.735657,
+          "latitude": 40.735657,
           "name": null
         },
         {
@@ -534,7 +534,7 @@ exports.seed = function(knex) {
           "state": "Connecticut",
           "email": "jessysica@aol.com",
           "longitude": -72.7292624365,
-          "lattitude": 41.68288305,
+          "latitude": 41.68288305,
           "name": "Jessy Sica"
         },
         {
@@ -543,7 +543,7 @@ exports.seed = function(knex) {
           "state": "Massachusetts",
           "email": "sophiemagidson@gmail.com",
           "longitude": -71.0710941,
-          "lattitude": 42.3367555,
+          "latitude": 42.3367555,
           "name": "Sophie Magidson"
         },
         {
@@ -552,7 +552,7 @@ exports.seed = function(knex) {
           "state": "Virginia",
           "email": "simpsonallison@yahoo.com",
           "longitude": -76.2929252,
-          "lattitude": 36.8462923,
+          "latitude": 36.8462923,
           "name": null
         },
         {
@@ -561,7 +561,7 @@ exports.seed = function(knex) {
           "state": "Oklahoma",
           "email": "ferolnichole@gmail.com",
           "longitude": -97.4394816,
-          "lattitude": 35.2225717,
+          "latitude": 35.2225717,
           "name": null
         },
         {
@@ -570,7 +570,7 @@ exports.seed = function(knex) {
           "state": "Illinois",
           "email": "shortney0006@yahoo.com",
           "longitude": -87.7009815,
-          "lattitude": 41.9737858,
+          "latitude": 41.9737858,
           "name": null
         },
         {
@@ -579,7 +579,7 @@ exports.seed = function(knex) {
           "state": "Alabama",
           "email": "aprils1973@gmail.com",
           "longitude": -87.5771286,
-          "lattitude": 33.2292976,
+          "latitude": 33.2292976,
           "name": null
         },
         {
@@ -588,7 +588,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "adina@kkgs.org",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": null
         },
         {
@@ -597,7 +597,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "aria.rivera@gmail.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": "Aria Rivera"
         },
         {
@@ -606,7 +606,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "nybratd@aol.com",
           "longitude": -74.0060152,
-          "lattitude": 40.7127281,
+          "latitude": 40.7127281,
           "name": "Dale Clausen"
         },
         {
@@ -615,7 +615,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "omoladeroddylcsw@gmail.com",
           "longitude": -122.2713563,
-          "lattitude": 37.8044557,
+          "latitude": 37.8044557,
           "name": null
         },
         {
@@ -624,7 +624,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "angellemerced@gmail.com",
           "longitude": -122.2713563,
-          "lattitude": 37.8044557,
+          "latitude": 37.8044557,
           "name": null
         },
         {
@@ -633,7 +633,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "monique.combs@oside.us",
           "longitude": -117.3794834,
-          "lattitude": 33.1958696,
+          "latitude": 33.1958696,
           "name": null
         },
         {
@@ -642,7 +642,7 @@ exports.seed = function(knex) {
           "state": "Oklahoma",
           "email": "carrie.blumert@gmail.com",
           "longitude": -97.5170536,
-          "lattitude": 35.4729886,
+          "latitude": 35.4729886,
           "name": null
         },
         {
@@ -651,7 +651,7 @@ exports.seed = function(knex) {
           "state": "Oklahoma",
           "email": "ashton.boswell@gmail.com",
           "longitude": -97.5170536,
-          "lattitude": 35.4729886,
+          "latitude": 35.4729886,
           "name": null
         },
         {
@@ -660,7 +660,7 @@ exports.seed = function(knex) {
           "state": "Nebraska",
           "email": "sdevillier@me.com",
           "longitude": -95.9383758,
-          "lattitude": 41.2587459,
+          "latitude": 41.2587459,
           "name": "Stephanie Devillier"
         },
         {
@@ -669,7 +669,7 @@ exports.seed = function(knex) {
           "state": "Nebraska",
           "email": "janel.scott@databaseusa.com",
           "longitude": -95.9383758,
-          "lattitude": 41.2587459,
+          "latitude": 41.2587459,
           "name": null
         },
         {
@@ -678,7 +678,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "abhill121811@gmail.com",
           "longitude": -81.4127841856,
-          "lattitude": 28.5479786,
+          "latitude": 28.5479786,
           "name": null
         },
         {
@@ -687,7 +687,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "bvaughnbrandie@gmail.com",
           "longitude": -81.3790388,
-          "lattitude": 28.5421097,
+          "latitude": 28.5421097,
           "name": null
         },
         {
@@ -696,7 +696,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "baredd1313@yahoo.com",
           "longitude": -81.3790388,
-          "lattitude": 28.5421097,
+          "latitude": 28.5421097,
           "name": null
         },
         {
@@ -705,7 +705,7 @@ exports.seed = function(knex) {
           "state": "Florida",
           "email": "vj42nato@gmail.com",
           "longitude": -81.3790388,
-          "lattitude": 28.5421097,
+          "latitude": 28.5421097,
           "name": null
         },
         {
@@ -714,7 +714,7 @@ exports.seed = function(knex) {
           "state": "Kentucky",
           "email": "bmeloney@gmail.com",
           "longitude": -87.1133304,
-          "lattitude": 37.7742152,
+          "latitude": 37.7742152,
           "name": null
         },
         {
@@ -723,7 +723,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "mypicksandstones@gmail.com",
           "longitude": -119.1803818,
-          "lattitude": 34.1976308,
+          "latitude": 34.1976308,
           "name": "Lori Krautkraemer"
         },
         {
@@ -732,7 +732,7 @@ exports.seed = function(knex) {
           "state": "New Jersey",
           "email": "flauletta87@gmail.com",
           "longitude": -75.2404608,
-          "lattitude": 39.830391,
+          "latitude": 39.830391,
           "name": null
         },
         {
@@ -741,7 +741,7 @@ exports.seed = function(knex) {
           "state": "Arizona",
           "email": "cmerritt34@gmail.com",
           "longitude": -112.0773456,
-          "lattitude": 33.4485866,
+          "latitude": 33.4485866,
           "name": null
         },
         {
@@ -750,7 +750,7 @@ exports.seed = function(knex) {
           "state": "Arizona",
           "email": "shaycd@msn.com",
           "longitude": -112.0773456,
-          "lattitude": 33.4485866,
+          "latitude": 33.4485866,
           "name": null
         },
         {
@@ -759,7 +759,7 @@ exports.seed = function(knex) {
           "state": "Arizona",
           "email": "lzoller@shermanhoward.com",
           "longitude": -112.0773456,
-          "lattitude": 33.4485866,
+          "latitude": 33.4485866,
           "name": null
         },
         {
@@ -768,7 +768,7 @@ exports.seed = function(knex) {
           "state": "Arizona",
           "email": "caroble1@asu.edu",
           "longitude": -112.0773456,
-          "lattitude": 33.4485866,
+          "latitude": 33.4485866,
           "name": null
         },
         {
@@ -777,7 +777,7 @@ exports.seed = function(knex) {
           "state": "Arizona",
           "email": "emma.brooke.030412@gmail.com",
           "longitude": -112.0773456,
-          "lattitude": 33.4485866,
+          "latitude": 33.4485866,
           "name": "Stephanie Patterson"
         },
         {
@@ -786,7 +786,7 @@ exports.seed = function(knex) {
           "state": "Arizona",
           "email": "azdawnmarie@gmail.com",
           "longitude": -112.0094217844,
-          "lattitude": 33.43291105,
+          "latitude": 33.43291105,
           "name": null
         },
         {
@@ -795,7 +795,7 @@ exports.seed = function(knex) {
           "state": "Washington",
           "email": "karen.narrowbridge@gmail.com",
           "longitude": -122.2117983,
-          "lattitude": 47.0022547,
+          "latitude": 47.0022547,
           "name": null
         },
         {
@@ -804,7 +804,7 @@ exports.seed = function(knex) {
           "state": "Pennsylvania",
           "email": "bruce.thompson37@aol.com",
           "longitude": -79.9900861,
-          "lattitude": 40.4416941,
+          "latitude": 40.4416941,
           "name": "Bruce Thompson"
         },
         {
@@ -813,7 +813,7 @@ exports.seed = function(knex) {
           "state": "Pennsylvania",
           "email": "stephanie.meyer@alleghenycounty.us",
           "longitude": -79.9900861,
-          "lattitude": 40.4416941,
+          "latitude": 40.4416941,
           "name": null
         },
         {
@@ -822,7 +822,7 @@ exports.seed = function(knex) {
           "state": "Pennsylvania",
           "email": "sydneyskyline26@aol.com",
           "longitude": -79.9900861,
-          "lattitude": 40.4416941,
+          "latitude": 40.4416941,
           "name": null
         },
         {
@@ -831,7 +831,7 @@ exports.seed = function(knex) {
           "state": "Michigan",
           "email": "aburchar@umich.edu",
           "longitude": -83.4675021,
-          "lattitude": 42.3712,
+          "latitude": 42.3712,
           "name": null
         },
         {
@@ -840,7 +840,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "vmccoy45@yahoo.com",
           "longitude": -117.7517496,
-          "lattitude": 34.0553813,
+          "latitude": 34.0553813,
           "name": null
         },
         {
@@ -849,7 +849,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "capricekid@aol.com",
           "longitude": -73.0691257,
-          "lattitude": 40.9465118,
+          "latitude": 40.9465118,
           "name": null
         },
         {
@@ -858,7 +858,7 @@ exports.seed = function(knex) {
           "state": "Washington",
           "email": "allview@olypen.com",
           "longitude": -123.4307413,
-          "lattitude": 48.118146,
+          "latitude": 48.118146,
           "name": null
         },
         {
@@ -867,7 +867,7 @@ exports.seed = function(knex) {
           "state": "New York",
           "email": "jlfencer4@yahoo.com",
           "longitude": -73.6981858,
-          "lattitude": 40.8256561,
+          "latitude": 40.8256561,
           "name": null
         },
         {
@@ -876,7 +876,7 @@ exports.seed = function(knex) {
           "state": "Oregon",
           "email": "vahid.brown@gmail.com",
           "longitude": -122.6741949,
-          "lattitude": 45.5202471,
+          "latitude": 45.5202471,
           "name": null
         },
         {
@@ -885,7 +885,7 @@ exports.seed = function(knex) {
           "state": "Arizona",
           "email": "lesgale@pdx.edu",
           "longitude": -110.8397632,
-          "lattitude": 32.1800622,
+          "latitude": 32.1800622,
           "name": null
         },
         {
@@ -894,7 +894,7 @@ exports.seed = function(knex) {
           "state": "Oregon",
           "email": "tpersons@lshigh.org",
           "longitude": -122.6741949,
-          "lattitude": 45.5202471,
+          "latitude": 45.5202471,
           "name": null
         },
         {
@@ -903,7 +903,7 @@ exports.seed = function(knex) {
           "state": "Oregon",
           "email": "dmj8000@gmail.com",
           "longitude": -122.6741949,
-          "lattitude": 45.5202471,
+          "latitude": 45.5202471,
           "name": null
         },
         {
@@ -912,7 +912,7 @@ exports.seed = function(knex) {
           "state": "Oregon",
           "email": "deanaaltman@yahoo.com",
           "longitude": -122.6741949,
-          "lattitude": 45.5202471,
+          "latitude": 45.5202471,
           "name": null
         },
         {
@@ -921,7 +921,7 @@ exports.seed = function(knex) {
           "state": "Oregon",
           "email": "armstrongdn@gmail.com",
           "longitude": -122.6741949,
-          "lattitude": 45.5202471,
+          "latitude": 45.5202471,
           "name": null
         },
         {
@@ -930,7 +930,7 @@ exports.seed = function(knex) {
           "state": "Oregon",
           "email": "renecrossis@gmail.com",
           "longitude": -122.6741949,
-          "lattitude": 45.5202471,
+          "latitude": 45.5202471,
           "name": null
         },
         {
@@ -939,7 +939,7 @@ exports.seed = function(knex) {
           "state": "Rhode Island",
           "email": "hlx0903@gmail.com",
           "longitude": -71.5814834,
-          "lattitude": 41.8677428,
+          "latitude": 41.8677428,
           "name": null
         },
         {
@@ -948,7 +948,7 @@ exports.seed = function(knex) {
           "state": "New Jersey",
           "email": "reginald85green@gmail.com",
           "longitude": -74.371223,
-          "lattitude": 39.954196,
+          "latitude": 39.954196,
           "name": null
         },
         {
@@ -957,7 +957,7 @@ exports.seed = function(knex) {
           "state": "California",
           "email": "kyramichel30@gmail.com",
           "longitude": -122.3916754,
-          "lattitude": 40.5863563,
+          "latitude": 40.5863563,
           "name": "Kyra Michel"
         },
         {
@@ -966,7 +966,7 @@ exports.seed = function(knex) {
           "state": "Nevada",
           "email": "ashleemforman13@gmail.com",
           "longitude": -119.8136744,
-          "lattitude": 39.52927,
+          "latitude": 39.52927,
           "name": null
         },
         {
@@ -975,7 +975,7 @@ exports.seed = function(knex) {
           "state": "Nevada",
           "email": "joeart@pacbell.net",
           "longitude": -119.8136744,
-          "lattitude": 39.52927,
+          "latitude": 39.52927,
           "name": null
         },
         {
@@ -984,7 +984,7 @@ exports.seed = function(knex) {
           "state": "Virginia",
           "email": "mickeymooreads@gmail.com",
           "longitude": -77.43428,
-          "lattitude": 37.5385087,
+          "latitude": 37.5385087,
           "name": null
         }
       ]);

@@ -12,7 +12,6 @@ exports.seed = function(knex) {
           state: "GA",
           zip: 30305,
           country: "United States",
-          created: "2019-07-31",
           longitude: 84.388,
           latitude: 33.749
         },
@@ -23,7 +22,6 @@ exports.seed = function(knex) {
           state: "IL",
           zip: 60007,
           country: "United States",
-          created: "2019-07-31",
           longitude: 87.6298,
           latitude: 41.8781
         },
@@ -34,7 +32,6 @@ exports.seed = function(knex) {
           state: "CA",
           zip: 94115,
           country: "United States",
-          created: "2019-07-31",
           longitude: 122.4194,
           latitude: 37.7749
         },
@@ -45,7 +42,6 @@ exports.seed = function(knex) {
           state: "GA",
           zip: 30305,
           country: "United States",
-          created: "2019-07-31",
           longitude: 84.388,
           latitude: 33.749
         },
@@ -56,7 +52,6 @@ exports.seed = function(knex) {
           state: "GA",
           zip: 30305,
           country: "United States",
-          created: "2019-07-31",
           longitude: 84.388,
           latitude: 33.749
         },
@@ -67,7 +62,6 @@ exports.seed = function(knex) {
           state: "NY",
           zip: 10001,
           country: "United States",
-          created: "2019-07-31",
           longitude: 74.006,
           latitude: 40.7128
         },
@@ -78,7 +72,6 @@ exports.seed = function(knex) {
           state: "CA",
           zip: 94115,
           country: "United States",
-          created: "2019-07-31",
           longitude: 122.4194,
           latitude: 37.7749
         },
@@ -89,7 +82,6 @@ exports.seed = function(knex) {
           state: "CA",
           zip: 94115,
           country: "United States",
-          created: "2019-07-31",
           longitude: 122.4194,
           latitude: 37.7749
         },
@@ -100,7 +92,6 @@ exports.seed = function(knex) {
           state: "IL",
           zip: 60007,
           country: "United States",
-          created: "2019-07-31",
           longitude: 87.6298,
           latitude: 41.8781
         },
@@ -111,7 +102,6 @@ exports.seed = function(knex) {
           state: "GA",
           zip: 30305,
           country: "United States",
-          created: "2019-07-31",
           longitude: 84.388,
           latitude: 33.749
         }

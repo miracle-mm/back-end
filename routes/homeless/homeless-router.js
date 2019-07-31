@@ -3,7 +3,7 @@ const router = require('express').Router();
 const Homeless = require('../../data-models/homeless-model.js');
 const authMiddleware = require('../../auth/auth-middleware.js');
 
-router.get('/', (req, res) => {
+router.get('/', authMiddleware, (req, res) => {
     Homeless.find()
         .then(homeless => {
             res.status(200).json(homeless)
@@ -25,7 +25,7 @@ router.post('/', (req, res) => {
         })
 })
 
-router.get('/:id', (req, res) => {
+router.get('/:id', authMiddleware, (req, res) => {
     const {id} = req.params
 
     Homeless.findById(id)

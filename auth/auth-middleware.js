@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const secret = require('../config/secrets.js');
 
 module.exports = function(req, res, next) {
-    const token = req.headers.authentication
+    const token = req.headers.authorization
 
     if(token) {
         jwt.verify(token, secret.jwtSecret, (err, decodedToken) => {

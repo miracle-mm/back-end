@@ -999,16 +999,6 @@ exports.seed = function(knex) {
       country: "United States",
       latitude: 37.4299388,
       longitude: -122.2538557
-    },
-    {
-      firstName: null,
-      lastName: null,
-      city: "Yountville",
-      state: "CA",
-      zip: "94999",
-      country: "United States",
-      latitude: 38.395445,
-      longitude: -122.3601725505
     }
   ]);
 };

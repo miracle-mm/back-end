@@ -1,6 +1,6 @@
 # Miracle Messages Map v1.0.0
 
-Miracle Messages Map API Docs
+[View Interactive Miracle Messages Map API Docs](https://mmm-api-docs.netlify.com/)
 
 - [Homeless](#homeless)
 	- [DELETE /api/homeless/:id](#delete-/api/homeless/:id)

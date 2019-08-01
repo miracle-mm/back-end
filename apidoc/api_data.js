@@ -39,7 +39,7 @@ define({ "api": [
     "groupTitle": "Homeless",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/homeless/:id"
+        "url": "https://miracle-messages-map.herokuapp.com/api/homeless/:id"
       }
     ]
   },
@@ -206,7 +206,7 @@ define({ "api": [
     "groupTitle": "Homeless",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/homeless/:id"
+        "url": "https://miracle-messages-map.herokuapp.com/api/homeless/:id"
       }
     ]
   },
@@ -289,7 +289,7 @@ define({ "api": [
     "groupTitle": "Homeless",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/homeless"
+        "url": "https://miracle-messages-map.herokuapp.com/api/homeless"
       }
     ]
   },
@@ -420,7 +420,7 @@ define({ "api": [
     "groupTitle": "Homeless",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/homeless/:id"
+        "url": "https://miracle-messages-map.herokuapp.com/api/homeless/:id"
       }
     ]
   },
@@ -587,7 +587,7 @@ define({ "api": [
     "groupTitle": "Homeless",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/homeless"
+        "url": "https://miracle-messages-map.herokuapp.com/api/homeless"
       }
     ]
   },
@@ -631,7 +631,7 @@ define({ "api": [
     "groupTitle": "Partners",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/partners/:id"
+        "url": "https://miracle-messages-map.herokuapp.com/api/partners/:id"
       }
     ]
   },
@@ -791,7 +791,7 @@ define({ "api": [
     "groupTitle": "Partners",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/partners/:id"
+        "url": "https://miracle-messages-map.herokuapp.com/api/partners/:id"
       }
     ]
   },
@@ -861,7 +861,7 @@ define({ "api": [
     "groupTitle": "Partners",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/partners"
+        "url": "https://miracle-messages-map.herokuapp.com/api/partners"
       }
     ]
   },
@@ -972,7 +972,7 @@ define({ "api": [
     "groupTitle": "Partners",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/partners/:id"
+        "url": "https://miracle-messages-map.herokuapp.com/api/partners/:id"
       }
     ]
   },
@@ -1041,7 +1041,7 @@ define({ "api": [
     "groupTitle": "Partners",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/auth/login"
+        "url": "https://miracle-messages-map.herokuapp.com/api/auth/login"
       }
     ]
   },
@@ -1201,7 +1201,7 @@ define({ "api": [
     "groupTitle": "Partners",
     "sampleRequest": [
       {
-        "url": "https://miracle-messages-map.herokuapp.com//api/auth/register"
+        "url": "https://miracle-messages-map.herokuapp.com/api/auth/register"
       }
     ]
   }

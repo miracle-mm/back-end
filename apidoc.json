@@ -1,0 +1,19 @@
+{
+    "name": "Miracle Messages Map",
+    "version": "1.0.0",
+    "description": "Miracle Messages Map API Docs",
+    "title": "API Documentation",
+    "url": "https://miracle-messages-map.herokuapp.com/",
+    "sampleUrl": "https://miracle-messages-map.herokuapp.com/",
+    "header": {
+        "title": "Miracle Messages Map Manager",
+        "filename": "./apidoc/header.md"
+    },
+    "footer": {
+        "filename": "./apidoc/footer.md"
+    },
+    "template": {
+        "withGenerator": true,
+        "withCompare": true
+    }
+}

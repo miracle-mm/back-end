@@ -97,6 +97,7 @@ router.get('/', authMiddleware, (req, res) => {
 
 router.post('/', (req, res) => {
     const homeless = req.body
+    homeless.zip = parseInt(homeless.zip)
     homeless.created = Date.now()
     Homeless.add(homeless)
         .then(createdHomeless => {

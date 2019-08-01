@@ -98,6 +98,8 @@ router.get('/', authMiddleware, (req, res) => {
 router.post('/', (req, res) => {
     const homeless = req.body
     homeless.zip = parseInt(homeless.zip)
+    homeless.latitude = parseFloat(homeless.latitude)
+    homeless.longitude = parseFloat(homeless.longitude)
     homeless.created = Date.now()
     Homeless.add(homeless)
         .then(createdHomeless => {
